@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './ColorGuessingGame.css';
 
-const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'];
+const colors = ['cyan', 'magenta', 'lime', 'gold', 'turquoise', 'violet'];
 
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
@@ -64,7 +64,7 @@ export default function ColorGuessingGame() {
       ></div>
 
       <p data-testid="gameInstructions" className="instructions">
-        Choose color that matches the Circle!
+        Guess color that matches the Circle!
       </p>
 
       <div className="color-options">
