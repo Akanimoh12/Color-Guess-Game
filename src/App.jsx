@@ -1,12 +1,15 @@
-
 import Fetch from "./components/Fetch"
+import './App.css'
 
 function App() {
   
 
   return (
     <>
-      <Fetch /> 
+    <div className="container">
+        <Fetch /> 
+    </div>
+      
     </>
   )
 }
