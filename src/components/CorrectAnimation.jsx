@@ -8,7 +8,7 @@ const CorrectAnimation = () => {
     setShowPopup(true);
     const timer = setTimeout(() => {
       setShowPopup(false);
-    }, 10000); 
+    }, 11000); 
 
     return () => clearTimeout(timer);
   }, []);
