@@ -18,7 +18,7 @@ const CorrectAnimation = () => {
       {showPopup && (
         <div className="popup-overlay">
           <div className="popup-content">
-            <h1>Congratulations! 🎉</h1>
+            <h1>Congratulations to you! 🎉</h1>
             {/* <img src="https://media.giphy.com/media/111ebonMs90YLu/giphy.gif" alt="Celebration" /> */}
           </div>
         </div>
