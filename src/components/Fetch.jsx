@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './ColorGuessingGame.css';
 
-const colors = ['cyan', 'magenta', 'yellow', 'blue', 'turquoise', 'pink'];
+const colors = ['cyan', 'magenta', 'green', 'blue', 'turquoise', 'pink'];
 
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
